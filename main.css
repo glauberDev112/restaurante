@@ -1,0 +1,101 @@
+body {
+    font-family: roboto, sens-serif;
+}
+.navbar {
+    background-color: rgb(225,96,78);
+}
+#cabeçalho.nav .nav-link.active {
+    background-color: white;
+    color: rgb(225,96,78);
+}
+#cabeçalho.nav .nav-link, h1.navbar-brand,
+h1.navbar-brand:hover, .nav-cardapio .nav-link.active :hover {
+    color: white;
+}
+.navbar-brand {
+    font-family: pacifico, cursive;
+}
+.navbar .container button.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.281);
+}
+.section-title, h2, h3, p, button {
+    font-family: pacifico, cursive;
+}
+.mark {
+    color: rgb(225,96,78);
+}
+.content-sections section {
+    background-color: rgb(254,236,241);
+}
+div.seper section .container div.row div img {
+    padding-bottom: 16px;
+}
+button {
+    color: black
+}
+.mark :hover {
+    color: rgb(225,96,78)
+}
+.nav-cardapio {
+    font-weight: 800;
+}
+.mark-title {
+    color: rgb(225,96,78);
+    font-family: pacifico, cursive;
+}
+.nav-cardapio .nav-link.active, .nav-cardapio .nav-link.active:hover {
+    background-color: rgb(225,96,78);
+    color: white;
+    font-weight: 800;
+}
+header .container * {
+    color: white;
+}
+header .container *.nav-link.active, header .container *.nav-link.active:hover {
+    background-color: white;
+    color: rgb(225,96,78);
+}
+header .container *.nav-link.active *, header .container *.nav-link.active *:hover {
+    background-color: white;
+    color: rgb(225,96,78);
+}
+.menu-justificado .tab-pane .container .row div img {
+    width: 100%;
+}
+.menu-justificado {
+    margin-top: 10px;
+}
+form.form-justificado {
+    padding-top: 20px;
+}
+.form-justificado div {
+    display: flex;
+    align-items: center;
+}
+.form-justificado div > label {
+    width: 100%;
+}
+.btn-send {
+    background-color: rgb(225,96,78);
+    color: white;
+    font-weight: 400;
+}
+.btn-send:hover {
+    background-color: rgb(245, 74, 51);
+    color: white;
+    font-weight: 500;
+}
+.btn-send:focus {
+    background-color: rgb(245, 74, 51);
+}
+.form-justificado {
+    padding-bottom: 10px;
+}
+.form-justificado div label {
+    font-family: pacifico, cursive;
+    text-transform: capitalize;
+}
+.seper section .container .row h2 {
+    padding-bottom: 20px;
+}
+
